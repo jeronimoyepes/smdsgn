@@ -10,7 +10,7 @@ var pump = require('pump');
 gulp.task('scss', function () {
 	return gulp.src('./scss/**/*.scss')
 	.pipe(sass.sync().on('error', sass.logError))
-	.pipe(gulp.dest('production/css'))
+	.pipe(gulp.dest('dist/css'))
 });
 
 // Compilar los SCSS cada vez que haya cambios en los archivos
@@ -30,7 +30,7 @@ gulp.task('compress', function (cb) {
   pump([
         gulp.src('pre-js/*.js'),
         uglify(),
-        gulp.dest('production/js')
+        gulp.dest('dist/js')
     ],
     cb
   );

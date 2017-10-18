@@ -1,11 +1,11 @@
 {
-  "name": "webhostayni",
+  "name": "webSimdesign",
   "version": "1.0.0",
-  "description": "página web de planeación de viajes",
-  "main": "index.js",
+  "description": "pagina web corporativa simdesign",
+  "main": "index.html",
   "scripts": {
   },
-  "author": "",
+  "author": "Jeronimo Yepes",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.13",
