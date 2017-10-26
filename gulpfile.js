@@ -20,7 +20,7 @@ gulp.task('scss:watch', function () {
 
 // Revisión de los archivos Javascript
 gulp.task('lint', function() {
-  return gulp.src('js/*.js')
+  return gulp.src('dist/js/*.js')
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
 });

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900");
+* {
+  padding: 0;
+  margin: 0;
+  clear: both;
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Lato"; }
+
+header {
+  padding-top: 20px; }
+  header .container {
+    display: block;
+    max-width: 1366px;
+    margin: 0px auto; }
+  header img {
+    display: block;
+    margin: 0 0 0 15px;
+    width: 68%; }
+  header .color-band {
+    vertical-align: bottom; }
+    header .color-band div {
+      width: 25%;
+      height: 7px;
+      display: inline-block;
+      vertical-align: bottom; }
+    header .color-band .color-band-1 {
+      background-color: #e0a000; }
+    header .color-band .color-band-2 {
+      background-color: #f9af00; }
+    header .color-band .color-band-3 {
+      background-color: #3656b8; }
+    header .color-band .color-band-4 {
+      background-color: #123ab8; }
+  header nav .main {
+    background-color: #f1f1f1; }
+  header nav li a {
+    padding: 9px 15px;
+    margin: 0 auto;
+    color: #4f4f4f;
+    display: block; }
+  header nav li a:hover {
+    background-color: #f1f1f1; }
+
+@media (min-width: 500px) {
+  header img {
+    width: auto;
+    margin: 5px 0px 0px 20px; } }
+
+@media (min-width: 680px) {
+  header nav li {
+    display: inline-block;
+    margin-right: -4px; }
+  header nav li:last-child {
+    margin-right: 0px; }
+  header nav {
+    float: right;
+    border-right: none; }
+  header nav li a {
+    padding: 9px 15px;
+    display: inline-block; }
+  footer nav li {
+    display: inline-block;
+    width: auto; } }
+
+@media (min-width: 992px) {
+  header img {
+    max-width: 90%; }
+  header .color-band {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: -4px; }
+  header nav {
+    display: inline-block;
+    vertical-align: bottom;
+    float: none;
+    margin-right: -8px; } }
