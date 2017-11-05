@@ -1,99 +1,44 @@
 header {
-  padding-top: 20px;
+  .logo-cont {
+    
+    img {
 
-  .container{
-  	display: block;
-  	max-width: 1366px;
-  	margin: 0px auto;
-  }
-
-  img {
-    display: block;
-    margin: 0 0 0 15px;
-    width: 68%;
-  }
-
-  .color-band {
-    vertical-align: bottom;
-
-    div {
-      width: 25%;
-      height: 7px;
-      display: inline-block;
-      vertical-align: bottom;
     }
+    .color-band {
 
-    .color-band-1 {
-      background-color: #e0a000;
-    }
-
-    .color-band-2 {
-      background-color: #f9af00;
-    }
-
-    .color-band-3 {
-      background-color: #3656b8;
-    }
-
-    .color-band-4 {
-      background-color: #123ab8;
-    }
-  }
-
-  nav {
-
-    .main {
-      background-color: #f1f1f1;
-    }
-
-    li {
-      a {
-        padding: 9px 15px;
-        margin: 0 auto;
-        color: $grey;
-        display: block;
-        // font-weight: 700;
+      div {
+        width: 25%;
+        height: 7px;
+        display: inline-block;
+        vertical-align: bottom;
       }
-
-      a:hover{
-      	background-color: #f1f1f1;
+  
+      .color-band-1 {
+        background-color: #e0a000;
+      }
+  
+      .color-band-2 {
+        background-color: #f9af00;
+      }
+  
+      .color-band-3 {
+        background-color: #3656b8;
+      }
+  
+      .color-band-4 {
+        background-color: #123ab8;
       }
     }
   }
 }
+
 @media (min-width: 500px) {
 
-	header img {
-		width: auto;
-		margin: 5px 0px 0px 20px;
-	}
 }
 
 @media (min-width: 680px) {
 
-	header nav li {
-		display: inline-block;
-		margin-right: -4px;
-	}
 
-	header nav li:last-child {
-		margin-right: 0px;
-	}
-
-	header nav{
-		float: right;
-		border-right: none;
-	}
-
-	header nav li a {
-		padding: 9px 15px;
-		display: inline-block;
-	}
-
-	footer nav li {
-		display: inline-block;
-		width: auto;
-	}
 }
 
 @media (min-width: 700px) {
@@ -103,24 +48,5 @@ header {
 
 @media (min-width: 992px) {
 
-	header {
 
-    img {
-  		max-width: 90%;
-  	}
-
-    .color-band {
-  		display: inline-block;
-  		vertical-align: bottom;
-  		margin-right: -4px;
-  	}
-
-    nav{
-  		display: inline-block;
-  		vertical-align: bottom;
-  		float: none;
-  		margin-right: -8px;
-  	}
-
-  }
 }
