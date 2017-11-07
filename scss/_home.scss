@@ -50,7 +50,7 @@
 
                         .controls {
                             margin: 0 auto;
-                            width: 50px;
+                            width: 70px;
                             margin-top: 20px;
                             a{
                                 display: inline-block;
@@ -63,7 +63,7 @@
                                 }
                             }
                             a:first-child {
-                                margin-right:25px;
+                                margin-right:45px;
                             }
                         }
                         
@@ -112,6 +112,8 @@ section {
                 position: relative;
                 top: 240px;
                 padding: 15px;
+                @include transition (300ms);
+                height: 320px;
                 h3 {
                     font-size: 1.3em;
                     margin-bottom: 15px;
@@ -124,7 +126,19 @@ section {
                 p{
                     font-size: 1em;
                 }
+                a{
+                    font-size: 1.1em;
+                    font-weight: 700;
+                    border-bottom: 2px solid #fff;
+                    color: #fff;
+                    display: block;
+                    margin: 45px auto;
+                    width: 67px;
+                }
             }
+        }
+        .new:hover > .text {
+            top: 0;
         }
     }
 }
