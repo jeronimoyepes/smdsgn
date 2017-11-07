@@ -2,51 +2,120 @@ header {
   .logo-cont {
     
     img {
-
+      display: block;
+      width: 250px;
+      margin: 15px auto 5px auto;
     }
     .color-band {
-
       div {
         width: 25%;
         height: 7px;
         display: inline-block;
         vertical-align: bottom;
       }
-  
+      
       .color-band-1 {
         background-color: #e0a000;
       }
-  
+      
       .color-band-2 {
         background-color: #f9af00;
       }
-  
+      
       .color-band-3 {
         background-color: #3656b8;
       }
-  
+      
       .color-band-4 {
         background-color: #123ab8;
+      }
+    }
+  }
+  .nav-cont {
+    nav {
+      .main {
+        background-color: #f1f1f1
+      }
+      li{
+        a {
+          padding: 9px 28px;
+          color: #4f4f4f;
+          display: block;
+          font-size: 0.91em;
+        }
+        a:hover {
+          background-color: #f1f1f1; 
+        }
       }
     }
   }
 }
 
 @media (min-width: 500px) {
-
+  header {
+    .logo-cont {
+      
+      img {
+        margin: 20px 0 7px 15px;
+      }
+    }
+  }
 }
 
 @media (min-width: 680px) {
-
-
+  
+  .nav-cont {
+    nav { 
+      li{
+        display: inline-block;
+        margin-right: -4px;
+        a {
+          padding: 9px 20px;
+          color: #4f4f4f;
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 700px) {
-
-
+  
+  
 }
 
 @media (min-width: 992px) {
 
-
 }
+
+@media (min-width: 1200px) {
+  header {
+    width: 1200px;
+    margin: auto;
+    .logo-cont {
+      display: inline-block;
+      width: 55%;
+      margin-right: -4px;
+      vertical-align: bottom;
+    }
+    .nav-cont {
+      display: inline-block;
+      width: 45%;
+      vertical-align: bottom;
+      
+      nav {
+        height: 85.2px;
+        li{
+          height: 85.2px;
+          overflow: hidden;
+          a {
+            padding: 9px 15px;
+            color: #4f4f4f;
+            display: block;
+            line-height: 70px;
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,150 @@
+.banner {
+    background-color: $main-blue;
+    .container {
+        max-width: $container-width;
+        margin: 0 auto;
+        .video {    
+            margin-right: -4px;
+            width: 100%;
+            iframe {
+                
+            }
+        }
+        .cards {
+            
+            .card {
+                background-color: #fff;
+                margin: 15px;
+                display: inline-block;
+                max-width: 420px;
+                .marker{
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-right: -4px;
+                    
+                    margin-left: -0.5px;
+                    img {
+                        margin-top: 15px;
+                        height: 75px;
+                    }
+                }
+                .content {
+                    display: inline-block;
+                    width: 73%;
+                    vertical-align: top;
+                    padding: 10px 15px 35px 23px;
+                    
+                    
+                    h2 {
+                        color: $main-blue;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        color: $grey;
+                        font-size: 0.93em;
+                    }
+                    .slider {
+                        width: 100%;
+
+                        .controls {
+                            margin: 0 auto;
+                            width: 50px;
+                            margin-top: 20px;
+                            a{
+                                display: inline-block;
+                                vertical-align: middle;
+                                width: 10px;
+                                
+                                img {
+                                    margin-top: 7px;
+                                    width: inherit;
+                                }
+                            }
+                            a:first-child {
+                                margin-right:25px;
+                            }
+                        }
+                        
+                        .slides {
+                            display: inline-block;
+                            vertical-align: middle;
+                            overflow: hidden;
+                            div {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .card:first-child {
+                margin: 15px 15px 0 15px!important;
+            }
+        }
+    }
+}
+
+@media (min-width: 635px) {
+    .banner {
+        
+        .container {
+            
+            .video {    
+                
+                iframe {
+                    
+                }
+            }
+            .cards {
+                
+                .card:first-child {
+                    
+                }
+                .card {
+                    
+                    img {
+                        
+                    }
+                }
+                .content {
+                    
+                    
+                    
+                    h2 {
+                        
+                    }
+                    p{
+                        
+                    }
+                    .slider {
+                        a{
+                            
+                            img {
+                                
+                            }
+                        }
+                        .slides {
+                            
+                            div {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 700px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}

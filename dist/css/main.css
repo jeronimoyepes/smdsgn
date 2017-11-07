@@ -8,6 +8,11 @@
   text-decoration: none;
   font-family: "Lato"; }
 
+header .logo-cont img {
+  display: block;
+  width: 250px;
+  margin: 15px auto 5px auto; }
+
 header .logo-cont .color-band div {
   width: 25%;
   height: 7px;
@@ -25,3 +30,105 @@ header .logo-cont .color-band .color-band-3 {
 
 header .logo-cont .color-band .color-band-4 {
   background-color: #123ab8; }
+
+header .nav-cont nav .main {
+  background-color: #f1f1f1; }
+
+header .nav-cont nav li a {
+  padding: 9px 28px;
+  color: #4f4f4f;
+  display: block;
+  font-size: 0.91em; }
+
+header .nav-cont nav li a:hover {
+  background-color: #f1f1f1; }
+
+@media (min-width: 500px) {
+  header .logo-cont img {
+    margin: 20px 0 7px 15px; } }
+
+@media (min-width: 680px) {
+  .nav-cont nav li {
+    display: inline-block;
+    margin-right: -4px; }
+    .nav-cont nav li a {
+      padding: 9px 20px;
+      color: #4f4f4f; } }
+
+@media (min-width: 1200px) {
+  header {
+    width: 1200px;
+    margin: auto; }
+    header .logo-cont {
+      display: inline-block;
+      width: 55%;
+      margin-right: -4px;
+      vertical-align: bottom; }
+    header .nav-cont {
+      display: inline-block;
+      width: 45%;
+      vertical-align: bottom; }
+      header .nav-cont nav {
+        height: 85.2px; }
+        header .nav-cont nav li {
+          height: 85.2px;
+          overflow: hidden; }
+          header .nav-cont nav li a {
+            padding: 9px 15px;
+            color: #4f4f4f;
+            display: block;
+            line-height: 70px; } }
+
+.banner {
+  background-color: #152a6d; }
+  .banner .container {
+    max-width: 1200px;
+    margin: 0 auto; }
+    .banner .container .video {
+      margin-right: -4px;
+      width: 100%; }
+    .banner .container .cards .card {
+      background-color: #fff;
+      margin: 15px;
+      display: inline-block;
+      max-width: 420px; }
+      .banner .container .cards .card .marker {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: -4px;
+        margin-left: -0.5px; }
+        .banner .container .cards .card .marker img {
+          margin-top: 15px;
+          height: 75px; }
+      .banner .container .cards .card .content {
+        display: inline-block;
+        width: 73%;
+        vertical-align: top;
+        padding: 10px 15px 35px 23px; }
+        .banner .container .cards .card .content h2 {
+          color: #152a6d;
+          margin-bottom: 15px; }
+        .banner .container .cards .card .content p {
+          color: #4f4f4f;
+          font-size: 0.93em; }
+        .banner .container .cards .card .content .slider {
+          width: 100%; }
+          .banner .container .cards .card .content .slider .controls {
+            margin: 0 auto;
+            width: 50px;
+            margin-top: 20px; }
+            .banner .container .cards .card .content .slider .controls a {
+              display: inline-block;
+              vertical-align: middle;
+              width: 10px; }
+              .banner .container .cards .card .content .slider .controls a img {
+                margin-top: 7px;
+                width: inherit; }
+            .banner .container .cards .card .content .slider .controls a:first-child {
+              margin-right: 25px; }
+          .banner .container .cards .card .content .slider .slides {
+            display: inline-block;
+            vertical-align: middle;
+            overflow: hidden; }
+    .banner .container .cards .card:first-child {
+      margin: 15px 15px 0 15px !important; }
