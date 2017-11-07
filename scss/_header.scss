@@ -38,7 +38,7 @@ header {
       }
       li{
         a {
-          padding: 9px 28px;
+          padding: 9px 20px;
           color: #4f4f4f;
           display: block;
           font-size: 0.91em;
@@ -62,7 +62,7 @@ header {
   }
 }
 
-@media (min-width: 680px) {
+@media (min-width: 695px) {
   
   .nav-cont {
     nav { 
@@ -76,15 +76,6 @@ header {
       }
     }
   }
-}
-
-@media (min-width: 700px) {
-  
-  
-}
-
-@media (min-width: 992px) {
-
 }
 
 @media (min-width: 1200px) {
