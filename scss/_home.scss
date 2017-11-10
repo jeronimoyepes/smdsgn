@@ -1,5 +1,6 @@
 .banner {
-    background-color: $main-blue;
+    background-color: $medium-blue;
+    opacity: 0.95;
     .container {
         max-width: $container-width;
         margin: 0 auto;
@@ -7,7 +8,7 @@
             margin-right: -4px;
             width: 100%;
             iframe {
-               height: 250px; 
+                height: 300px;
             }
         }
         .cards {
@@ -37,7 +38,7 @@
                     
                     
                     h2 {
-                        color: $main-blue;
+                        color: #0e3aa8;
                         margin-bottom: 15px;
                         font-size: 2em;
                     }
@@ -47,7 +48,7 @@
                     }
                     .slider {
                         width: 100%;
-
+                        
                         .controls {
                             margin: 0 auto;
                             width: 70px;
@@ -85,19 +86,20 @@
     }
 }
 
-section {
-    margin: 40px auto 0 auto;
+.programs {
+    margin: 60px auto 0 auto;
     max-width: $container-width;
     .title {
         h2 {
             display: inline-block;
             border-bottom: 4px solid $main-yellow;
             color: $main-blue;
+            margin-left: 17px;
         }
     }
     .content {
         margin-top: 20px;
-        .new {
+        .program {
             width: 100%;
             height: 320px;
             background-position: top center;
@@ -137,29 +139,159 @@ section {
                 }
             }
         }
-        .new:hover > .text {
+        .program:hover > .text {
             top: 0;
         }
     }
 }
+
+
+.news {
+    margin: 60px auto 0 auto;
+    max-width: $container-width;
+    .title {
+        h2 {
+            display: inline-block;
+            border-bottom: 4px solid $main-yellow;
+            color: $main-blue;
+            margin-left: 17px;
+        }
+    }
+    .content {
+        margin-top: 20px;
+        .new {
+            width: 100%;
+            margin-right: -3px;
+            margin-bottom: 10px;
+            display: inline-block;
+            padding: 0;
+            .image {
+                display: block;
+                background-position: top center;
+                background-size: cover;
+                overflow: hidden;
+                height: 200px;
+            }
+            .text {
+                background-color: #f9f9f9;
+                padding: 15px 20px 5px 20px;
+                border-bottom: 1.5px solid $medium-blue;
+                h3 {
+                    font-size: 0.95em;
+                    font-weight: 700;
+                    color: #353535;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 0.9em;
+                    color: #353535;
+                    margin-bottom: 20px;
+                }
+                .footer {
+                    span {
+                        font-size: 0.8em;
+                        color: #353535;
+                    }
+                    a {
+                        color: $medium-blue;
+                        width: 106px;
+                        float: right;
+                        font-size: 0.9em;
+                        font-weight: 700;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .new:last-child {
+            padding: 0;
+        }
+    }
+}
+
+.contact {
+    margin: 60px auto 0 auto;
+    max-width: $container-width;
+    .title {
+        h2 {
+            display: inline-block;
+            border-bottom: 4px solid $main-yellow;
+            color: $main-blue;
+            margin-left: 17px;
+        }
+    }
+    .content {
+        margin-top: 20px;
+        .map {
+            iframe {
+                display: block;
+            }
+            address {
+                background-color: $medium-blue;
+                padding: 40px;
+                opacity: 0.9;
+                .group {
+                    margin-bottom: 20px;
+                    p{
+                        color: #fff;
+                        font-style: normal;
+                        font-weight: 300;
+                    }
+                    .title {
+                        font-size: 0.8em;
+                        margin-bottom: 5px;
+                    }
+                }
+                .group:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 600px) {
-    section {
+    .programs {
+        .content {
+            .program {
+                width: 50%;
+            }
+            .program:first-child {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    }
+    .news {
         .content {
             .new {
-                width: 50%;
+                width: 49.6%;
             }
             .new:first-child {
                 width: 100%;
+            }
+            .new:nth-child(2) {
+                padding: 0 5px 0 0;
             }
         }
     }
 }
 
 @media (min-width: 900px) {
-    section {
+    .programs {
+        .content {
+            .program {
+                max-width: 33.3333333333%;
+            }
+        }
+    }
+    .news {
         .content {
             .new {
-                max-width: 33.3333333333%;
+                max-width: 33%;
+                padding: 0 5px 0 0;
             }
         }
     }
@@ -175,20 +307,39 @@ section {
                 display: inline-block;
                 vertical-align: top;
                 margin-bottom: -4px;
-                iframe {
-                    height: 420px;
-                }
             }
             .cards {
                 display: inline-block;
                 width: 35%;
                 vertical-align: top;
-                .card:first-child {
-                    
-                }
             }
         }
         
+    }
+    
+    .contact {
+
+        .content {
+            .map {
+                position: relative;
+                iframe {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+                address {
+                    width: 20%;
+                    float: right;
+                    position: relative;
+                    top: 0;
+                    right: 0;
+                    height: 280px;
+                    padding-top: 80px;
+                    
+                    margin-bottom: 50px;
+                }
+            }
+        }
     }
     
 }
@@ -198,5 +349,25 @@ section {
 }
 
 @media (min-width: 1200px) {
-    
+    .programs {
+        .title {
+            h2 {
+                margin-left: 0;
+            }
+        }    
+    }
+    .news {
+        .title {
+            h2 {
+                margin-left: 0;
+            }
+        }    
+    }
+    .contact {
+        .title {
+            h2 {
+                margin-left: 0;
+            }
+        }    
+    }
 }

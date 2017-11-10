@@ -79,8 +79,65 @@ header .nav-cont nav li a:hover {
             display: block;
             line-height: 70px; } }
 
+footer {
+  background-color: #898989;
+  padding: 15px;
+  margin-top: 50px; }
+  footer .container {
+    max-width: 1200px;
+    margin: 0 auto; }
+    footer .container nav ul li {
+      display: block;
+      text-align: center;
+      padding-bottom: 15px; }
+      footer .container nav ul li a {
+        color: #fff;
+        font-size: 0.95em; }
+    footer .container nav ul .main {
+      font-weight: 700; }
+    footer .container nav ul li:hover {
+      text-decoration: underline; }
+    footer .container .social {
+      width: 137px;
+      margin: 0 auto; }
+      footer .container .social a {
+        margin-right: 20px; }
+        footer .container .social a img {
+          width: 30px;
+          height: 60px; }
+      footer .container .social a:last-child {
+        margin-right: 0; }
+
+.logos {
+  max-width: 1200px;
+  margin: 0 auto; }
+  .logos .container {
+    text-align: center; }
+    .logos .container a {
+      display: block;
+      margin: 20px 0; }
+
+@media (min-width: 695px) {
+  footer .container nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 80px; }
+    footer .container nav ul li {
+      display: inline-block;
+      margin-right: 20px; }
+  footer .container .social {
+    display: inline-block;
+    vertical-align: middle; }
+  .logos .container {
+    text-align: right;
+    margin: 20px 0; }
+    .logos .container a {
+      display: inline;
+      margin-left: 30px; } }
+
 .banner {
-  background-color: #152a6d; }
+  background-color: #123ab7;
+  opacity: 0.95; }
   .banner .container {
     max-width: 1200px;
     margin: 0 auto; }
@@ -88,7 +145,7 @@ header .nav-cont nav li a:hover {
       margin-right: -4px;
       width: 100%; }
       .banner .container .video iframe {
-        height: 250px; }
+        height: 300px; }
     .banner .container .cards {
       margin: 0 auto;
       max-width: 450px; }
@@ -111,7 +168,7 @@ header .nav-cont nav li a:hover {
           vertical-align: top;
           padding: 10px 15px 35px 23px; }
           .banner .container .cards .card .content h2 {
-            color: #152a6d;
+            color: #0e3aa8;
             margin-bottom: 15px;
             font-size: 2em; }
           .banner .container .cards .card .content p {
@@ -139,16 +196,17 @@ header .nav-cont nav li a:hover {
       .banner .container .cards .card:first-child {
         margin: 15px 15px 0 15px !important; }
 
-section {
-  margin: 40px auto 0 auto;
+.programs {
+  margin: 60px auto 0 auto;
   max-width: 1200px; }
-  section .title h2 {
+  .programs .title h2 {
     display: inline-block;
     border-bottom: 4px solid #f8ae00;
-    color: #152a6d; }
-  section .content {
+    color: #152a6d;
+    margin-left: 17px; }
+  .programs .content {
     margin-top: 20px; }
-    section .content .new {
+    .programs .content .program {
       width: 100%;
       height: 320px;
       background-position: top center;
@@ -157,7 +215,7 @@ section {
       display: inline-block;
       margin-right: -3px;
       margin-bottom: -4px; }
-      section .content .new .text {
+      .programs .content .program .text {
         background-color: rgba(18, 58, 183, 0.75);
         color: #fff;
         position: relative;
@@ -169,16 +227,16 @@ section {
         -o-transition: all 300ms ease-in-out;
         transition: all 300ms ease-in-out;
         height: 320px; }
-        section .content .new .text h3 {
+        .programs .content .program .text h3 {
           font-size: 1.3em;
           margin-bottom: 15px; }
-        section .content .new .text h4 {
+        .programs .content .program .text h4 {
           font-weight: 600;
           font-size: 0.95em;
           margin-bottom: 8px; }
-        section .content .new .text p {
+        .programs .content .program .text p {
           font-size: 1em; }
-        section .content .new .text a {
+        .programs .content .program .text a {
           font-size: 1.1em;
           font-weight: 700;
           border-bottom: 2px solid #fff;
@@ -186,18 +244,105 @@ section {
           display: block;
           margin: 45px auto;
           width: 67px; }
-    section .content .new:hover > .text {
+    .programs .content .program:hover > .text {
       top: 0; }
 
+.news {
+  margin: 60px auto 0 auto;
+  max-width: 1200px; }
+  .news .title h2 {
+    display: inline-block;
+    border-bottom: 4px solid #f8ae00;
+    color: #152a6d;
+    margin-left: 17px; }
+  .news .content {
+    margin-top: 20px; }
+    .news .content .new {
+      width: 100%;
+      margin-right: -3px;
+      margin-bottom: 10px;
+      display: inline-block;
+      padding: 0; }
+      .news .content .new .image {
+        display: block;
+        background-position: top center;
+        background-size: cover;
+        overflow: hidden;
+        height: 200px; }
+      .news .content .new .text {
+        background-color: #f9f9f9;
+        padding: 15px 20px 5px 20px;
+        border-bottom: 1.5px solid #123ab7; }
+        .news .content .new .text h3 {
+          font-size: 0.95em;
+          font-weight: 700;
+          color: #353535;
+          margin-bottom: 10px; }
+        .news .content .new .text p {
+          font-size: 0.9em;
+          color: #353535;
+          margin-bottom: 20px; }
+        .news .content .new .text .footer span {
+          font-size: 0.8em;
+          color: #353535; }
+        .news .content .new .text .footer a {
+          color: #123ab7;
+          width: 106px;
+          float: right;
+          font-size: 0.9em;
+          font-weight: 700; }
+        .news .content .new .text .footer a:hover {
+          text-decoration: underline; }
+    .news .content .new:last-child {
+      padding: 0; }
+
+.contact {
+  margin: 60px auto 0 auto;
+  max-width: 1200px; }
+  .contact .title h2 {
+    display: inline-block;
+    border-bottom: 4px solid #f8ae00;
+    color: #152a6d;
+    margin-left: 17px; }
+  .contact .content {
+    margin-top: 20px; }
+    .contact .content .map iframe {
+      display: block; }
+    .contact .content .map address {
+      background-color: #123ab7;
+      padding: 40px;
+      opacity: 0.9; }
+      .contact .content .map address .group {
+        margin-bottom: 20px; }
+        .contact .content .map address .group p {
+          color: #fff;
+          font-style: normal;
+          font-weight: 300; }
+        .contact .content .map address .group .title {
+          font-size: 0.8em;
+          margin-bottom: 5px; }
+      .contact .content .map address .group:last-child {
+        margin-bottom: 0; }
+
 @media (min-width: 600px) {
-  section .content .new {
+  .programs .content .program {
     width: 50%; }
-  section .content .new:first-child {
-    width: 100%; } }
+  .programs .content .program:first-child {
+    width: 100%;
+    padding: 0; }
+  .news .content .new {
+    width: 49.6%; }
+  .news .content .new:first-child {
+    width: 100%; }
+  .news .content .new:nth-child(2) {
+    padding: 0 5px 0 0; } }
 
 @media (min-width: 900px) {
-  section .content .new {
-    max-width: 33.3333333333%; } }
+  .programs .content .program {
+    max-width: 33.3333333333%; }
+  .news .content .new {
+    max-width: 33%;
+    padding: 0 5px 0 0; } }
 
 @media (min-width: 992px) {
   .banner .container .video {
@@ -205,9 +350,30 @@ section {
     display: inline-block;
     vertical-align: top;
     margin-bottom: -4px; }
-    .banner .container .video iframe {
-      height: 420px; }
   .banner .container .cards {
     display: inline-block;
     width: 35%;
-    vertical-align: top; } }
+    vertical-align: top; }
+  .contact .content .map {
+    position: relative; }
+    .contact .content .map iframe {
+      position: absolute;
+      top: 0;
+      right: 0; }
+    .contact .content .map address {
+      width: 20%;
+      float: right;
+      position: relative;
+      top: 0;
+      right: 0;
+      height: 280px;
+      padding-top: 80px;
+      margin-bottom: 50px; } }
+
+@media (min-width: 1200px) {
+  .programs .title h2 {
+    margin-left: 0; }
+  .news .title h2 {
+    margin-left: 0; }
+  .contact .title h2 {
+    margin-left: 0; } }

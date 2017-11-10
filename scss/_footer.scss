@@ -1,0 +1,98 @@
+footer {
+    background-color: #898989;
+    padding: 15px;
+    margin-top: 50px;
+    .container {
+        max-width: $container-width;
+        margin: 0 auto;
+        nav {
+            ul {
+                
+                li { 
+                    display: block;
+                    text-align: center;
+                    padding-bottom: 15px;
+                    a{
+                        color: #fff;
+                        font-size: 0.95em;
+                    }
+                }
+                .main {
+                    font-weight: 700;
+                }
+                li:hover {
+                    text-decoration: underline;
+                }
+            }
+            
+        }
+        .social {
+            width: 137px;
+            margin: 0 auto;
+            a{
+                margin-right: 20px;
+                img {
+                    width: 30px;
+                    height: 60px;
+                }
+                
+            }
+            a:last-child {
+                margin-right: 0;
+            }
+            
+        }
+    }
+}
+
+.logos {
+    max-width: $container-width;
+    margin: 0 auto;
+    .container {
+        text-align: center;
+        a {
+            display: block;
+            margin: 20px 0;
+        }
+        
+    }
+}
+
+@media (min-width: 695px) {
+    footer {
+        .container {
+            nav {
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 80px;
+                ul {
+                    
+                    li { 
+                        display: inline-block;
+                        margin-right: 20px; 
+                        a{
+                            
+                        }
+                    }
+                }
+                
+            }
+            .social {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+    }
+    
+    .logos {
+        .container {
+            text-align: right;
+            margin: 20px 0;
+            a {
+                display: inline;
+                margin-left: 30px;
+            }
+            
+        }
+    }
+}
