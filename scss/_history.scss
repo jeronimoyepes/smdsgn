@@ -42,7 +42,7 @@
     padding-top: 50px;
 }
 
-.normal {
+.normalevent {
     .date {
     }
     .image {
@@ -56,7 +56,7 @@
     }
 }
 
-.small {
+.smallevent {
     .date {
     }
     .image {
@@ -67,6 +67,29 @@
         h3{
             font-size: 1.2em;
         }
+    }
+}
+
+.importantevent {
+    .background {
+        img {
+            
+        }
+    }
+    .info {
+
+        .date {
+
+        }
+        .text {
+            h3 {
+
+            }
+            p{
+                
+            }
+        }
+
     }
 }
 
@@ -93,7 +116,7 @@
             }
         }
     }
-    .normal {
+    .normalevent {
         .date {
             margin-right: 20px;
         }
@@ -106,7 +129,7 @@
         }
     }
     
-    .small {
+    .smallevent {
         .date {
             margin-right: 70px;
         }

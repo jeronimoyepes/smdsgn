@@ -172,18 +172,18 @@ footer {
 .event:first-child {
   padding-top: 50px; }
 
-.normal .image {
+.normalevent .image {
   width: 250px;
   height: 250px; }
 
-.normal .text h3 {
+.normalevent .text h3 {
   font-size: 1.6em; }
 
-.small .image {
+.smallevent .image {
   width: 160px;
   height: 160px; }
 
-.small .text h3 {
+.smallevent .text h3 {
   font-size: 1.2em; }
 
 @media (min-width: 800px) {
@@ -202,15 +202,15 @@ footer {
         text-align: left; }
       .event .text p {
         text-align: left; }
-  .normal .date {
+  .normalevent .date {
     margin-right: 20px; }
-  .normal .image {
+  .normalevent .image {
     margin-right: 50px; }
-  .small .date {
+  .smallevent .date {
     margin-right: 70px; }
-  .small .image {
+  .smallevent .image {
     margin-right: 90px; }
-  .small .text h3 {
+  .smallevent .text h3 {
     margin-bottom: 10px; } }
 
 @media (min-width: 940px) {
