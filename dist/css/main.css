@@ -533,7 +533,8 @@ footer {
 .programBanner {
   background-color: #123ab7;
   padding: 0;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 70px; }
   .programBanner .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -567,7 +568,7 @@ footer {
       float: right; }
   .programBanner .colorOverlay {
     background-color: #123ab7;
-    opacity: 0.75;
+    opacity: 0.85;
     position: absolute;
     width: 100%;
     height: inherit;
@@ -583,7 +584,9 @@ footer {
       line-height: 1.6em;
       display: block;
       font-size: 1.1em;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      font-weight: 700;
+      letter-spacing: 0.04em; }
 
 .who-section {
   background-color: #f8ae00;
@@ -636,19 +639,85 @@ footer {
     margin: 0 auto; }
   .who-section .info {
     position: relative;
-    top: 40px; }
+    top: 30px; }
     .who-section .info h3 {
       display: block;
       font-weight: 900;
       font-size: 2em;
       padding-left: 20px; }
 
+.who-section .cont-large {
+  height: 150px; }
+
 .card-cont {
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 30px auto;
+  text-align: center; }
+  .card-cont .card {
+    width: 300px;
+    padding: 0 10px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: left; }
+    .card-cont .card img {
+      width: 110px;
+      height: 110px;
+      overflow: hidden;
+      border-radius: 50%;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px; }
+    .card-cont .card .info {
+      display: inline-block;
+      margin-right: -4px;
+      max-width: 180px;
+      vertical-align: middle;
+      margin-top: 10px;
+      color: #4f4f4f; }
+      .card-cont .card .info span {
+        display: block;
+        margin-bottom: 3px; }
+      .card-cont .card .info .nombre {
+        font-weight: 900;
+        font-size: 1.2em; }
+      .card-cont .card .info .titulo {
+        font-size: 0.8em; }
+      .card-cont .card .info .cargo {
+        text-transform: uppercase;
+        font-size: 0.75em; }
+      .card-cont .card .info .social a {
+        color: inherit;
+        display: block;
+        font-size: 0.85em;
+        text-decoration: underline;
+        margin-bottom: 5px; }
+
+@media (min-width: 600px) {
+  .programBanner .info {
+    padding: 70px; } }
+
+@media (min-width: 900px) {
+  .card-cont .card {
+    display: inline-block;
+    margin: 30px;
+    width: 450px; }
+    .card-cont .card img {
+      width: 190px;
+      height: 190px; }
+  .card-center .card {
+    width: 450px; }
+    .card-center .card .info {
+      max-width: 280px; } }
 
 @media (min-width: 1200px) {
   .who-section .background i {
     display: inline-block; }
   .programBanner .background i {
-    display: inline-block; } }
+    display: inline-block; }
+  .programBanner .info {
+    padding-left: 50px; } }
+
+@media (min-width: 349px) {
+  .who-section .cont-large {
+    height: 100px; } }
