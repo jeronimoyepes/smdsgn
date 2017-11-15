@@ -530,18 +530,18 @@ footer {
   .contact .title h2 {
     margin-left: 0; } }
 
-.who-section {
+.programBanner {
   background-color: #123ab7;
   padding: 0;
   width: 100%; }
-  .who-section .container {
+  .programBanner .container {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
     top: 0;
     height: 340px;
     color: #fff; }
-  .who-section .background {
+  .programBanner .background {
     height: inherit;
     width: 100%;
     margin: 0 auto;
@@ -551,7 +551,7 @@ footer {
     position: absolute;
     top: 0;
     left: 0; }
-    .who-section .background i {
+    .programBanner .background i {
       display: none;
       background: -moz-linear-gradient(left, #123ab7 0%, rgba(255, 255, 255, 0.51) 49%, rgba(255, 255, 255, 0) 100%);
       background: -webkit-linear-gradient(left, #123ab7 0%, rgba(255, 255, 255, 0.51) 49%, rgba(255, 255, 255, 0) 100%);
@@ -559,31 +559,96 @@ footer {
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#123ab7', endColorstr='#00ffffff',GradientType=1 );
       height: 340px;
       width: 500px; }
-    .who-section .background i:last-child {
+    .programBanner .background i:last-child {
       background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.51) 51%, #123ab7 100%);
       background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.51) 51%, #123ab7 100%);
       background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.51) 51%, #123ab7 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#123ab7',GradientType=1 );
       float: right; }
-  .who-section .colorOverlay {
+  .programBanner .colorOverlay {
     background-color: #123ab7;
     opacity: 0.75;
     position: absolute;
     width: 100%;
     height: inherit;
     margin: 0 auto; }
-  .who-section .info {
+  .programBanner .info {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
     top: 0;
     padding: 40px 10px; }
+    .programBanner .info p {
+      max-width: 400px;
+      line-height: 1.6em;
+      display: block;
+      font-size: 1.1em;
+      margin-bottom: 20px; }
+
+.who-section {
+  background-color: #f8ae00;
+  padding: 0;
+  width: 100%; }
+  .who-section .container {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    height: 100px;
+    color: #fff; }
+  .who-section .background {
+    height: inherit;
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .who-section .background i {
+      display: none;
+      background: -moz-linear-gradient(left, #f8ae00 0%, rgba(248, 174, 0, 0.99) 1%, rgba(248, 174, 0, 0) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #f8ae00 0%, rgba(248, 174, 0, 0.99) 1%, rgba(248, 174, 0, 0) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #f8ae00 0%, rgba(248, 174, 0, 0.99) 1%, rgba(248, 174, 0, 0) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ae00', endColorstr='#00f8ae00',GradientType=1 );
+      /* IE6-9 */
+      height: 100px;
+      width: 500px; }
+    .who-section .background i:last-child {
+      background: -moz-linear-gradient(left, rgba(248, 174, 0, 0) 0%, rgba(248, 174, 0, 0.99) 99%, #f8ae00 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, rgba(248, 174, 0, 0) 0%, rgba(248, 174, 0, 0.99) 99%, #f8ae00 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, rgba(248, 174, 0, 0) 0%, rgba(248, 174, 0, 0.99) 99%, #f8ae00 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f8ae00', endColorstr='#f8ae00',GradientType=1 );
+      /* IE6-9 */
+      float: right; }
+  .who-section .colorOverlay {
+    background-color: #f8ae00;
+    opacity: 0.75;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    margin: 0 auto; }
+  .who-section .info {
+    position: relative;
+    top: 40px; }
     .who-section .info h3 {
       display: block;
-      text-align: center;
       font-weight: 900;
-      font-size: 2em; }
+      font-size: 2em;
+      padding-left: 20px; }
+
+.card-cont {
+  max-width: 1200px;
+  margin: 0 auto; }
 
 @media (min-width: 1200px) {
   .who-section .background i {
+    display: inline-block; }
+  .programBanner .background i {
     display: inline-block; } }
