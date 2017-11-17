@@ -1,0 +1,152 @@
+.program-cont {
+    max-width: $container-width;
+    margin: 0 auto;
+    .program-sect {
+        margin-bottom: 40px;
+        .info {
+            vertical-align: top;
+            background-color: $main-yellow;
+            color: #fff;
+            .info-cont {
+                padding: 30px;
+                max-width: 470px;
+                margin: 0 auto;
+                text-align: center;
+            }
+            h3 {
+                font-size: 1.3em;
+                letter-spacing: 0.02em;
+                margin-bottom: 20px;
+            }
+            h4 {
+                margin-bottom: 10px;
+            }
+            p {
+                
+            }
+            .icons {
+                margin-bottom: 25px;
+                .icon {
+                    display: inline-block;
+                    margin-right: -4px;
+                    width: 50%;
+                    margin-top: 20px;
+                    img {
+                        height: 35px; 
+                        vertical-align: middle;
+                        margin-right: 5px;
+                    }
+                    p {
+                        font-weight: 600;
+                        letter-spacing: 0.02em;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            a {
+                font-weight: 900;
+                border-bottom: 3px solid #fff;
+                color: #fff;
+            }
+        }
+        .image {
+            background-position: top center;
+            background-size: cover;
+            overflow: hidden;
+            height: 350px;
+            vertical-align: top;            
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .program-cont {
+        .program-sect {
+            
+            .info {
+                width: 30%;
+                display: inline-block;
+                margin-right: -4px;
+                .info-cont {
+                    text-align: left;
+                }
+                h3 {
+                }
+                h4 {
+                }
+                p {
+                    
+                }
+                .icons {
+                    .icon {
+                        display: block;
+                        width: 100%;
+                        img {
+                            
+                        }
+                        p {
+                        }
+                    }
+                }
+                a {
+                }
+            }
+            .image {
+                display: inline-block;
+                margin-right: -4px;
+                width: 70%;         
+            }
+        }
+    }  
+}
+
+@media (min-width: 1000px) {
+    .program-cont {
+        .program-sect {
+            .info {
+                .icons {
+                    .icon {
+                        display: inline-block;
+                        width: 50%;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .program-cont {
+        .program-sect {
+            
+            .info {
+                .info-cont {
+                    
+                }
+                h3 {
+                }
+                h4 {
+                }
+                p {
+                    
+                }
+                .icons {
+                    
+                    .icon {
+                        img {
+                            
+                        }
+                        p {
+                        }
+                    }
+                }
+                a {
+                }
+            }
+            .image { 
+            }
+        }
+    }
+}

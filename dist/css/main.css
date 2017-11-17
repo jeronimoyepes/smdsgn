@@ -463,7 +463,7 @@ footer {
     .contact .content .map address {
       background-color: #123ab7;
       padding: 40px;
-      opacity: 0.9; }
+      opacity: 0.87; }
       .contact .content .map address .group {
         margin-bottom: 20px; }
         .contact .content .map address .group p {
@@ -586,7 +586,19 @@ footer {
       font-size: 1.1em;
       margin-bottom: 20px;
       font-weight: 700;
-      letter-spacing: 0.04em; }
+      letter-spacing: 0.035em; }
+  .programBanner .who a {
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: 0.02em;
+    font-weight: 900;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fff;
+    display: inline-block; }
+  .programBanner .who p {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.5em; }
 
 .who-section {
   background-color: #f8ae00;
@@ -693,6 +705,10 @@ footer {
         text-decoration: underline;
         margin-bottom: 5px; }
 
+@media (min-width: 349px) {
+  .who-section .cont-large {
+    height: 100px; } }
+
 @media (min-width: 600px) {
   .programBanner .info {
     padding: 70px; } }
@@ -718,6 +734,69 @@ footer {
   .programBanner .info {
     padding-left: 50px; } }
 
-@media (min-width: 349px) {
-  .who-section .cont-large {
-    height: 100px; } }
+.program-cont {
+  max-width: 1200px;
+  margin: 0 auto; }
+  .program-cont .program-sect {
+    margin-bottom: 40px; }
+    .program-cont .program-sect .info {
+      vertical-align: top;
+      background-color: #f8ae00;
+      color: #fff; }
+      .program-cont .program-sect .info .info-cont {
+        padding: 30px;
+        max-width: 470px;
+        margin: 0 auto;
+        text-align: center; }
+      .program-cont .program-sect .info h3 {
+        font-size: 1.3em;
+        letter-spacing: 0.02em;
+        margin-bottom: 20px; }
+      .program-cont .program-sect .info h4 {
+        margin-bottom: 10px; }
+      .program-cont .program-sect .info .icons {
+        margin-bottom: 25px; }
+        .program-cont .program-sect .info .icons .icon {
+          display: inline-block;
+          margin-right: -4px;
+          width: 50%;
+          margin-top: 20px; }
+          .program-cont .program-sect .info .icons .icon img {
+            height: 35px;
+            vertical-align: middle;
+            margin-right: 5px; }
+          .program-cont .program-sect .info .icons .icon p {
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            display: inline-block;
+            vertical-align: middle; }
+      .program-cont .program-sect .info a {
+        font-weight: 900;
+        border-bottom: 3px solid #fff;
+        color: #fff; }
+    .program-cont .program-sect .image {
+      background-position: top center;
+      background-size: cover;
+      overflow: hidden;
+      height: 350px;
+      vertical-align: top; }
+
+@media (min-width: 900px) {
+  .program-cont .program-sect .info {
+    width: 30%;
+    display: inline-block;
+    margin-right: -4px; }
+    .program-cont .program-sect .info .info-cont {
+      text-align: left; }
+    .program-cont .program-sect .info .icons .icon {
+      display: block;
+      width: 100%; }
+  .program-cont .program-sect .image {
+    display: inline-block;
+    margin-right: -4px;
+    width: 70%; } }
+
+@media (min-width: 1000px) {
+  .program-cont .program-sect .info .icons .icon {
+    display: inline-block;
+    width: 50%; } }

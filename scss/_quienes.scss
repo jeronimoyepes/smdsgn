@@ -59,7 +59,23 @@
             font-size: 1.1em;
             margin-bottom: 20px;
             font-weight: 700;
-            letter-spacing: 0.04em;
+            letter-spacing: 0.035em;
+        }
+    }
+    .who {
+        a {
+            color: #fff;
+            font-size: 1.5em;
+            letter-spacing: 0.02em;
+            font-weight: 900;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #fff;
+            display: inline-block;
+        }
+        p{
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            line-height: 1.5em;
         }
     }
 }
@@ -156,7 +172,7 @@
             vertical-align: middle;
             margin-top: 10px;
             color: $grey;
-
+            
             span {
                 display: block;
                 margin-bottom: 3px;
@@ -183,6 +199,14 @@
             }
         }
     }
+}
+
+@media (min-width: 349px) {
+    .who-section{
+        .cont-large {
+            height: 100px;
+        }
+    }    
 }
 
 @media (min-width: 600px) {
@@ -234,12 +258,4 @@
             padding-left: 50px;
         }
     }
-}
-
-@media (min-width: 349px) {
-    .who-section{
-        .cont-large {
-            height: 100px;
-        }
-    }    
 }
