@@ -62,8 +62,7 @@
 
 @media (min-width: 900px) {
     .program-cont {
-        .program-sect {
-            
+        .program-sect { 
             .info {
                 width: 30%;
                 display: inline-block;
@@ -71,26 +70,13 @@
                 .info-cont {
                     text-align: left;
                 }
-                h3 {
-                }
-                h4 {
-                }
-                p {
-                    
-                }
                 .icons {
                     .icon {
                         display: block;
                         width: 100%;
-                        img {
-                            
-                        }
-                        p {
-                        }
                     }
                 }
-                a {
-                }
+
             }
             .image {
                 display: inline-block;
@@ -117,36 +103,3 @@
     }
 }
 
-@media (min-width: 1200px) {
-    .program-cont {
-        .program-sect {
-            
-            .info {
-                .info-cont {
-                    
-                }
-                h3 {
-                }
-                h4 {
-                }
-                p {
-                    
-                }
-                .icons {
-                    
-                    .icon {
-                        img {
-                            
-                        }
-                        p {
-                        }
-                    }
-                }
-                a {
-                }
-            }
-            .image { 
-            }
-        }
-    }
-}

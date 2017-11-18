@@ -112,7 +112,7 @@
                 background-color: rgba(18, 58, 183, 0.75);
                 color: #fff;
                 position: relative;
-                top: 240px;
+                top: 245px;
                 padding: 15px;
                 @include transition (300ms);
                 height: 320px;
@@ -197,7 +197,7 @@
                         width: 106px;
                         float: right;
                         font-size: 0.9em;
-                        font-weight: 700;
+                        font-weight: 400;
                     }
                     a:hover {
                         text-decoration: underline;

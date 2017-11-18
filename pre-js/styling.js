@@ -14,11 +14,18 @@ $(document).ready(function($) {
         // que el alto de las imagenes de los programas en la pestaña programas sea igual al alto de las descripciones
         if (winWidth > 900) {
             $(".program-cont .program-sect .image").each(function (i) {
-                $(this).height($(this).prev().height())
+                $(this).height($(this).prev().height());
             });
+
+            $(".news-cont .new-sect .image").each(function (i) {
+                $(this).height($(this).prev().height());
+            });
+
         }
         else if ($(this).width() < 992) {
             $(".program-cont .program-sect .image").height(350);
+
+            $(".news-cont .new-sect .image").height(350);
         }
     });
     
@@ -32,10 +39,16 @@ $(document).ready(function($) {
     // imagenes de programas en la pestaña programas
     if (winWidth > 900) {
         $(".program-cont .program-sect .image").each(function (i) {
-            $(this).height($(this).prev().height())
+            $(this).height($(this).prev().height());
+        });
+
+        $(".news-cont .new-sect .image").each(function (i) {
+            $(this).height($(this).prev().height());
         });
     }
     else if ($(this).width() < 992) {
         $(".program-cont .program-sect .image").height(350);
+
+        $(".news-cont .new-sect .image").height(350);
     }
 });

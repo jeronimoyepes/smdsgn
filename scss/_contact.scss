@@ -1,0 +1,143 @@
+.contact-banner {
+    background-color: $medium-blue;
+    padding: 0;
+    width: 100%;
+    .container {
+        max-width: 1600px;
+        position: relative;
+        top: 0;
+        height: 540px;
+        color: #fff;
+    }
+    .background {
+        height: inherit;
+        width: 100%;
+        background-position: top center;
+        background-size: cover;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        i {
+            display: none;
+            background: -moz-linear-gradient(left, rgba(18,58,183,1) 0%, rgba(255,255,255,0.51) 49%, rgba(255,255,255,0) 100%);
+            background: -webkit-linear-gradient(left, rgba(18,58,183,1) 0%,rgba(255,255,255,0.51) 49%,rgba(255,255,255,0) 100%);
+            background: linear-gradient(to right, rgba(18,58,183,1) 0%,rgba(255,255,255,0.51) 49%,rgba(255,255,255,0) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#123ab7', endColorstr='#00ffffff',GradientType=1 );
+            height: 540px;
+            width: 500px; 
+        }
+        i:last-child {
+            background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.51) 51%, rgba(18,58,183,1) 100%);
+            background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.51) 51%,rgba(18,58,183,1) 100%);
+            background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.51) 51%,rgba(18,58,183,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#123ab7',GradientType=1 );
+            float: right;
+        }
+    }
+    .colorOverlay {
+        background-color: $medium-blue;
+        opacity: 0.85;  
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        margin: 0 auto;
+    }
+    .form-cont {
+        max-width: $container-width;
+        margin: 0 auto;
+        position: relative;
+        top: 0;
+        padding: 40px 10px;
+        h2 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        form {
+            max-width: 900px;
+            .col {
+                margin-bottom: 20px;
+                textarea {
+                    width: 96%;
+                    border: none;
+                    padding: 10px;
+                    border-bottom: 2px solid $main-yellow;
+                    height: 200px;
+                }
+                input {
+                    width: 98%;
+                    border: none;
+                    padding: 5px;
+                    border-bottom: 2px solid $main-yellow;
+                    margin-bottom: 10px;
+                }
+                button {
+                    background: none !important;
+                    color: inherit;
+                    border: none;
+                    border-bottom: 3px solid #fff;
+                    padding: 0! important;
+                    font: inherit;
+                    font-weight: 600;
+                    font-size: 1.1em;
+                    display: block;
+                    width: 53px;
+                    margin: 20px auto 0 auto;
+                    cursor: pointer;
+                    outline: inherit !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-banner {
+        .background {
+            i {
+                display: inline-block;
+            }
+        }
+        .form-cont {
+            padding-left: 50px;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .contact-banner {
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            position: relative;
+            top: 0;
+            height: 370px;
+            color: #fff;
+        }
+        .background {
+            i {
+                width: 370px; 
+            }
+        }
+        .form-cont {
+            h2 {
+            }
+            form {
+                .col {
+                    display: inline-block;
+                    width: 48%;
+                    margin-right: 10px;
+                    vertical-align: top;
+                    textarea {
+                    }
+                    input {
+                    }
+                    button {
+                        margin-right: 0;
+                        margin-top: 76px;
+                    }
+                }
+            }
+        }
+    }
+}

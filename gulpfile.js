@@ -29,7 +29,7 @@ gulp.task('compress', function (cb) {
   console.log('compress');
   pump([
         gulp.src('pre-js/*.js'),
-        uglify(),
+        // uglify(),
         gulp.dest('dist/js')
     ],
     cb
