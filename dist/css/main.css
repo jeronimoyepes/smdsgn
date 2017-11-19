@@ -959,3 +959,88 @@ footer {
     .contact-banner .form-cont form .col button {
       margin-right: 0;
       margin-top: 76px; } }
+
+.new {
+  max-width: 1200px;
+  margin: 0 auto; }
+  .new .banner {
+    width: 100%;
+    height: 250px; }
+  .new .name {
+    background-color: #f8ae00;
+    padding: 20px; }
+    .new .name h2 {
+      color: #fff;
+      font-size: 1.2em; }
+  .new .info {
+    margin: 20px; }
+    .new .info .date {
+      color: #152a6d;
+      font-weight: 900;
+      margin-bottom: 10px; }
+  .new .content {
+    padding: 0 10px;
+    color: #4f4f4f;
+    max-width: 600px;
+    margin: 0 auto; }
+    .new .content h3 {
+      font-size: 1.05em;
+      margin-bottom: 15px;
+      line-height: 1.3em; }
+    .new .content p {
+      margin-bottom: 10px;
+      line-height: 1.4em; }
+    .new .content ul {
+      list-style-type: disc;
+      padding-left: 10px;
+      margin-left: 20px;
+      margin: 20px 10px; }
+      .new .content ul li {
+        list-style: disc;
+        margin-bottom: 7px; }
+    .new .content ol {
+      list-style-type: decimal;
+      padding-left: 10px;
+      margin-left: 20px;
+      margin: 20px 10px; }
+      .new .content ol li {
+        list-style-type: decimal;
+        margin-bottom: 7px; }
+    .new .content table {
+      margin: 20px 0;
+      border: 1px solid #fff;
+      font-size: 0.95em;
+      width: 100%; }
+      .new .content table tr {
+        background-color: #e8e8e8; }
+      .new .content table td {
+        padding: 5px; }
+      .new .content table th {
+        background-color: #f8ae00;
+        padding: 5px;
+        color: #fff; }
+    .new .content img {
+      margin: 10px 0;
+      border: 0;
+      max-width: 100%;
+      width: auto; }
+    .new .content blockquote {
+      font-size: 0.95em;
+      line-height: 1.4em;
+      max-width: 350px;
+      display: block;
+      margin: 0 auto;
+      font-style: italic; }
+
+@media (min-width: 700px) {
+  .new {
+    margin: 30px auto; }
+    .new .name {
+      max-width: 300px;
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 30px; }
+    .new .info {
+      display: inline-block;
+      vertical-align: top;
+      margin: 10px; } }
