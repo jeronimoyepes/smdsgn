@@ -1,4 +1,4 @@
-.new {
+.program-info {
     max-width: $container-width;
     margin: 0 auto;
     .banner {
@@ -10,23 +10,30 @@
     .name {
         background-color: $main-yellow;
         padding: 20px;
+        margin-bottom: 30px;
         h2 {
             color: #fff;
             font-size: 1.3em;
             max-width: 300px;
         }
-    }
-    .info {
-        margin: 20px;
-        .date {
-            color: $medium-blue;
-            font-weight: 900;
-            margin-bottom: 10px;
+        .icons {
+            color: #fff;
+            text-align: center;
+            margin-top: 30px;
+            .icon {
+                display: inline-block;
+                margin-right: -4px;
+                width: 50%;
+                img {
+                    height: 50px;
+                }
+                p{
+                    font-weight: 600;
+                }
+            }
         }
-        .author{
-            
-        }
-    }
+    }    
+    
     .content{
         padding: 0 10px;
         color: $grey;
@@ -92,22 +99,52 @@
             margin: 20px auto;
             font-style: italic;
         }
+        .register {
+            background-color: $main-yellow;
+            display: block;
+            max-width: 230px;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
+            padding: 10px 0;
+            text-align: center;
+            margin: 30px auto;
+            img {
+                width: 50px;   
+                height: 50px; 
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+            p{
+                vertical-align: middle;
+                display: inline-block;
+                color: white;
+                font-weight: 600;
+                font-size: 1.5em;
+                margin-top: 7px;
+            }
+        }
     }
 }
 
 @media (min-width: 700px) {
-    .new {
-        margin: 30px auto;
+    .program-info {
+        margin-top: 30px;
         .name {
-            max-width: 300px;
-            display: inline-block;
-            vertical-align: top;
-            margin-bottom: 30px;
-        }
-        .info {
-            display: inline-block;
-            vertical-align: top;
-            margin: 10px;
+            h2 {
+                display: inline-block;
+                vertical-align: top;
+            }
+            .icons {
+                display: inline-block;
+                margin-left: 50px;
+                vertical-align: top;
+                margin-top: 0;
+                .icon {
+                    display: inline-block;
+                    margin-right: 30px;
+                    width: auto;
+                }
+            }
         }
     }
 }
