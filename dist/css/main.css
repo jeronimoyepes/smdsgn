@@ -305,12 +305,13 @@ footer {
         height: 300px; }
     .banner .container .cards {
       margin: 0 auto;
-      max-width: 450px; }
+      max-width: 450px;
+      overflow: hidden;
+      padding: 15px; }
       .banner .container .cards .card {
         background-color: #fff;
-        margin: 15px;
         display: inline-block;
-        max-width: 420px; }
+        width: 100%; }
         .banner .container .cards .card .marker {
           display: inline-block;
           vertical-align: top;
@@ -322,9 +323,10 @@ footer {
             height: 75px; }
         .banner .container .cards .card .content {
           display: inline-block;
-          width: 73%;
+          width: 78%;
           vertical-align: top;
-          padding: 10px 15px 35px 23px; }
+          padding: 10px 15px 35px 23px;
+          overflow: hidden; }
           .banner .container .cards .card .content h2 {
             color: #0e3aa8;
             margin-bottom: 15px;
@@ -333,7 +335,15 @@ footer {
             color: #4f4f4f;
             font-size: 0.93em; }
           .banner .container .cards .card .content .slider {
-            width: 100%; }
+            overflow: hidden; }
+            .banner .container .cards .card .content .slider .slides {
+              display: inline-flex;
+              width: 500%;
+              overflow: hidden; }
+              .banner .container .cards .card .content .slider .slides div {
+                width: 100%; }
+              .banner .container .cards .card .content .slider .slides p {
+                width: 95%; }
             .banner .container .cards .card .content .slider .controls {
               margin: 0 auto;
               width: 70px;
@@ -347,12 +357,8 @@ footer {
                   width: inherit; }
               .banner .container .cards .card .content .slider .controls a:first-child {
                 margin-right: 45px; }
-            .banner .container .cards .card .content .slider .slides {
-              display: inline-block;
-              vertical-align: middle;
-              overflow: hidden; }
-      .banner .container .cards .card:first-child {
-        margin: 15px 15px 0 15px !important; }
+      .banner .container .cards .card:last-child {
+        margin-top: 15px; }
 
 .programs {
   margin: 60px auto 0 auto;
@@ -511,7 +517,7 @@ footer {
     margin-bottom: -4px; }
   .banner .container .cards {
     display: inline-block;
-    width: 35%;
+    width: 32%;
     vertical-align: top; }
   .contact .content .map {
     position: relative; }

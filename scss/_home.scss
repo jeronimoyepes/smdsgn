@@ -14,11 +14,12 @@
         .cards {
             margin: 0 auto;
             max-width: 450px;
+            overflow: hidden;
+            padding: 15px;
             .card {
                 background-color: #fff;
-                margin: 15px;
                 display: inline-block;
-                max-width: 420px;
+                width: 100%;
                 .marker{
                     display: inline-block;
                     vertical-align: top;
@@ -32,10 +33,10 @@
                 }
                 .content {
                     display: inline-block;
-                    width: 73%;
+                    width: 78%;
                     vertical-align: top;
                     padding: 10px 15px 35px 23px;
-                    
+                    overflow: hidden;
                     
                     h2 {
                         color: #0e3aa8;
@@ -47,7 +48,19 @@
                         font-size: 0.93em;
                     }
                     .slider {
-                        width: 100%;
+                        overflow: hidden;
+
+                        .slides {
+                            display: inline-flex;
+                            width: 500%;
+                            overflow: hidden;
+                            div {
+                                width: 100%;
+                            }
+                            p {
+                                width: 95%;
+                            }
+                        }
                         
                         .controls {
                             margin: 0 auto;
@@ -67,20 +80,12 @@
                                 margin-right:45px;
                             }
                         }
-                        
-                        .slides {
-                            display: inline-block;
-                            vertical-align: middle;
-                            overflow: hidden;
-                            div {
-                                
-                            }
-                        }
+                    
                     }
                 }
             }
-            .card:first-child {
-                margin: 15px 15px 0 15px!important;
+            .card:last-child {
+                margin-top: 15px;
             }
         }
     }
@@ -311,7 +316,7 @@
             }
             .cards {
                 display: inline-block;
-                width: 35%;
+                width: 32%;
                 vertical-align: top;
             }
         }
@@ -319,7 +324,7 @@
     }
     
     .contact {
-
+        
         .content {
             .map {
                 position: relative;
