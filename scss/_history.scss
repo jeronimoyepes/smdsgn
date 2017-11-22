@@ -10,6 +10,9 @@
         display: block;
         text-align: center;
         margin-bottom: 20px;
+        width: 90px;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
     .image {
         -webkit-border-radius: 50%;
@@ -86,7 +89,7 @@
         height: inherit;
         width: 100%;
         margin: 0 auto;
-        background-position: top center;
+        background-position: center;
         background-size: cover;
         overflow: hidden;
         position: absolute;
@@ -138,6 +141,7 @@
                 text-align: center;
                 font-size: 1.6em;
                 margin-bottom: 20px;
+                letter-spacing: 0.03em;
             }
             p{
                 display: block;
@@ -163,6 +167,7 @@
         .text {
             display: inline-block;
             vertical-align: middle;
+            width: 35%;
             h3{
                 text-align: left;
             }
