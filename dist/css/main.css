@@ -35,6 +35,11 @@ header .nav-cont nav .main {
   background-color: #f1f1f1; }
 
 header .nav-cont nav li a {
+  -webkit-transition: all 100ms ease-in-out;
+  -moz-transition: all 100ms ease-in-out;
+  -ms-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
   padding: 9px 20px;
   color: #4f4f4f;
   display: block;
@@ -837,7 +842,7 @@ footer {
         color: #fff;
         letter-spacing: 0.03em; }
     .news-cont .new-sect .image {
-      background-position: top center;
+      background-position: center;
       background-size: cover;
       overflow: hidden;
       height: 350px;
@@ -1072,7 +1077,7 @@ footer {
       .program-info .name .icons .icon {
         display: inline-block;
         margin-right: -4px;
-        width: 50%; }
+        width: 33.33333%; }
         .program-info .name .icons .icon img {
           height: 50px; }
         .program-info .name .icons .icon p {
@@ -1083,17 +1088,43 @@ footer {
     max-width: 600px;
     margin: 0 auto; }
     .program-info .content h3 {
-      font-size: 1.05em;
+      font-size: 1.06em;
       margin-bottom: 15px;
-      line-height: 1.3em; }
+      line-height: 1.3em;
+      font-weight: 900; }
     .program-info .content p {
       margin-bottom: 10px;
       line-height: 1.4em; }
+    .program-info .content .bold {
+      margin-top: 20px;
+      font-weight: 900;
+      display: block;
+      font-size: 0.95em;
+      letter-spacing: 0.02em; }
+    .program-info .content .legal {
+      font-size: 0.9em; }
+      .program-info .content .legal p {
+        line-height: 1.2em;
+        color: #797979; }
+    .program-info .content .icon-column .icon {
+      width: 100px;
+      height: auto;
+      margin: 0 auto; }
+    .program-info .content .icon-column .text {
+      max-width: 420px;
+      margin: 0 auto; }
+      .program-info .content .icon-column .text p {
+        color: #152a6d;
+        font-weight: bold;
+        letter-spacing: 0.01em;
+        text-align: center; }
     .program-info .content ul {
       list-style-type: disc;
       padding-left: 10px;
       margin-left: 20px;
-      margin: 20px 10px; }
+      margin: 20px 10px;
+      max-width: 400px;
+      letter-spacing: 0.01em; }
       .program-info .content ul li {
         list-style: disc;
         margin-bottom: 7px; }
@@ -1123,13 +1154,18 @@ footer {
       border: 0;
       max-width: 100%;
       width: auto; }
+    .program-info .content .no-mobile {
+      display: none; }
+    .program-info .content .no-screen {
+      display: initial; }
     .program-info .content blockquote {
-      font-size: 0.95em;
       line-height: 1.4em;
       max-width: 350px;
       display: block;
       margin: 20px auto;
-      font-style: italic; }
+      font-style: italic;
+      letter-spacing: 0.03em;
+      text-align: center; }
     .program-info .content .register {
       background-color: #f8ae00;
       display: block;
@@ -1138,7 +1174,12 @@ footer {
       border-radius: 15px;
       padding: 10px 0;
       text-align: center;
-      margin: 30px auto; }
+      margin: 30px auto;
+      -webkit-transition: all 200ms ease-in-out;
+      -moz-transition: all 200ms ease-in-out;
+      -ms-transition: all 200ms ease-in-out;
+      -o-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out; }
       .program-info .content .register img {
         width: 50px;
         height: 50px;
@@ -1151,19 +1192,39 @@ footer {
         font-weight: 600;
         font-size: 1.5em;
         margin-top: 7px; }
+    .program-info .content .register:hover {
+      -webkit-border-radius: 25px;
+      border-radius: 25px; }
 
 @media (min-width: 700px) {
   .program-info {
     margin-top: 30px; }
     .program-info .name h2 {
       display: inline-block;
-      vertical-align: top; }
+      vertical-align: middle; }
     .program-info .name .icons {
       display: inline-block;
       margin-left: 50px;
-      vertical-align: top;
+      vertical-align: middle;
       margin-top: 0; }
       .program-info .name .icons .icon {
         display: inline-block;
         margin-right: 30px;
-        width: auto; } }
+        width: auto; }
+    .program-info .content .icon-column .icon {
+      display: inline-block;
+      margin: 0;
+      width: 20%;
+      margin-right: 20px;
+      vertical-align: middle; }
+    .program-info .content .icon-column .text {
+      display: inline-block;
+      margin-right: -4px;
+      width: 70%;
+      vertical-align: middle; }
+      .program-info .content .icon-column .text p {
+        text-align: left; }
+    .program-info .content .no-mobile {
+      display: initial; }
+    .program-info .content .no-screen {
+      display: none; } }

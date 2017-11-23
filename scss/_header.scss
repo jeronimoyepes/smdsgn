@@ -38,6 +38,7 @@ header {
       }
       li{
         a {
+          @include transition(100ms);
           padding: 9px 20px;
           color: #4f4f4f;
           display: block;
