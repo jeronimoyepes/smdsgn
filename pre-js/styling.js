@@ -1,4 +1,9 @@
 $(document).ready(function($) {
+
+    // evitar que los links sin href te lleven a la
+    // $("a[href='#']").on("click", function (e) {
+    //     e.preventDefault();
+    // });
     
     // registrar el cambio de tamaño de la pantalla
     var winWidth = $(window).width();

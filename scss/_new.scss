@@ -1,4 +1,4 @@
-.new {
+.new-art {
     max-width: $container-width;
     margin: 0 auto;
     .banner {
@@ -96,7 +96,7 @@
 }
 
 @media (min-width: 700px) {
-    .new {
+    .new-art {
         margin: 30px auto;
         .name {
             max-width: 300px;

@@ -356,7 +356,8 @@ footer {
               .banner .container .cards .card .content .slider .controls a {
                 display: inline-block;
                 vertical-align: middle;
-                width: 10px; }
+                width: 10px;
+                cursor: pointer; }
                 .banner .container .cards .card .content .slider .controls a img {
                   margin-top: 7px;
                   width: inherit; }
@@ -966,74 +967,74 @@ footer {
       margin-right: 0;
       margin-top: 76px; } }
 
-.new {
+.new-art {
   max-width: 1200px;
   margin: 0 auto; }
-  .new .banner {
+  .new-art .banner {
     width: 100%;
     height: 250px;
     background-size: cover;
     background-position: top center; }
-  .new .name {
+  .new-art .name {
     background-color: #f8ae00;
     padding: 20px; }
-    .new .name h2 {
+    .new-art .name h2 {
       color: #fff;
       font-size: 1.3em;
       max-width: 300px; }
-  .new .info {
+  .new-art .info {
     margin: 20px; }
-    .new .info .date {
+    .new-art .info .date {
       color: #123ab7;
       font-weight: 900;
       margin-bottom: 10px; }
-  .new .content {
+  .new-art .content {
     padding: 0 10px;
     color: #4f4f4f;
     max-width: 600px;
     margin: 0 auto; }
-    .new .content h3 {
+    .new-art .content h3 {
       font-size: 1.05em;
       margin-bottom: 15px;
       line-height: 1.3em; }
-    .new .content p {
+    .new-art .content p {
       margin-bottom: 10px;
       line-height: 1.4em; }
-    .new .content ul {
+    .new-art .content ul {
       list-style-type: disc;
       padding-left: 10px;
       margin-left: 20px;
       margin: 20px 10px; }
-      .new .content ul li {
+      .new-art .content ul li {
         list-style: disc;
         margin-bottom: 7px; }
-    .new .content ol {
+    .new-art .content ol {
       list-style-type: decimal;
       padding-left: 10px;
       margin-left: 20px;
       margin: 20px 10px; }
-      .new .content ol li {
+      .new-art .content ol li {
         list-style-type: decimal;
         margin-bottom: 7px; }
-    .new .content table {
+    .new-art .content table {
       margin: 20px 0;
       border: 0.5px solid #fff;
       font-size: 0.95em;
       width: 100%; }
-      .new .content table tr {
+      .new-art .content table tr {
         background-color: #e8e8e8; }
-      .new .content table td {
+      .new-art .content table td {
         padding: 5px; }
-      .new .content table th {
+      .new-art .content table th {
         background-color: #f8ae00;
         padding: 5px;
         color: #fff; }
-    .new .content img {
+    .new-art .content img {
       margin: 10px 0;
       border: 0;
       max-width: 100%;
       width: auto; }
-    .new .content blockquote {
+    .new-art .content blockquote {
       font-size: 0.95em;
       line-height: 1.4em;
       max-width: 350px;
@@ -1042,14 +1043,14 @@ footer {
       font-style: italic; }
 
 @media (min-width: 700px) {
-  .new {
+  .new-art {
     margin: 30px auto; }
-    .new .name {
+    .new-art .name {
       max-width: 300px;
       display: inline-block;
       vertical-align: top;
       margin-bottom: 30px; }
-    .new .info {
+    .new-art .info {
       display: inline-block;
       vertical-align: top;
       margin: 10px; } }
