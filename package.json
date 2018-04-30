@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "pagina web corporativa simdesign",
   "main": "index.html",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Jeronimo Yepes",
   "license": "ISC",
   "devDependencies": {

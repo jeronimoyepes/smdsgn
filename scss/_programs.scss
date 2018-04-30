@@ -21,9 +21,6 @@
             h4 {
                 margin-bottom: 10px;
             }
-            p {
-                
-            }
             .icons {
                 margin-bottom: 25px;
                 .icon {
@@ -60,6 +57,18 @@
     }
 }
 
+.programBanner {
+    .info {
+        a {
+            color: #fff;
+            font-size: 1.1em;
+            font-weight: 600;
+            border-bottom: 3px solid #fff;
+        }
+    }
+}
+
+
 @media (min-width: 900px) {
     .program-cont {
         .program-sect { 
@@ -76,7 +85,7 @@
                         width: 100%;
                     }
                 }
-
+                
             }
             .image {
                 display: inline-block;
@@ -86,6 +95,7 @@
         }
     }  
 }
+
 
 @media (min-width: 1000px) {
     .program-cont {
@@ -102,4 +112,3 @@
         }
     }
 }
-
